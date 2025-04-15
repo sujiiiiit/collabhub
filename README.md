@@ -2,6 +2,8 @@
 
 CollabHub is a platform designed to connect developers and help them find the right collaborators for their projects. Unlike traditional job portals, CollabHub emphasizes collaboration and building connections tailored to developers' skills, interests, and project needs.
 
+![Collabhub](./public/assets//home.png)
+
 ## Features
 
 - **Developer Collaboration:** Match with developers who share similar interests or complement your project's requirements.
