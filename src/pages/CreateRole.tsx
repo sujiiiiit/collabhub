@@ -338,7 +338,7 @@ export function GithubRepos({
 // Function to handle Gemini API streaming and parse each chunk of Markdown to blocks
 const streamFromGemini = async (inputText: string, editor: BlockNoteEditor) => {
   try {
-    const API_KEY = "AIzaSyBfu0zPKsyao5Rm1pJlUyPll-ym8W5TKR0"; // Replace with your actual API key
+    const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY2; // Replace with your actual API key
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     const model = genAI.getGenerativeModel({
